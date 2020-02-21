@@ -1,0 +1,256 @@
+.topSearchBox {
+  background-color: #F7EDE2; // 747572
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+body {
+ background-image: url(images/catBackground.jpg);
+ background-color: #84A59D;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.horizontalCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.verticalCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.margin30 {
+  margin: 30px;
+}
+
+.leftTwoThirds {
+  margin-left: 8%;
+  margin-right: 40%;
+}
+
+
+.bg-gold {
+  background-color: #F6BD60;
+  border-radius: 25px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 30px;
+  height: 100px;
+  margin: 5px;
+  border-collapse: separate;
+}
+
+.bg-green {
+  background-color: #84A59D;
+  border-radius: 25px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 30px;
+  height: 100px;
+  margin: 5px;
+  border-collapse: separate;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: #F7EDE2;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+
+    margin-left: 75px;
+}
+
+.weatherForecastBox {
+  background-color: #F7EDE2; // 747572
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* .navbar-expand-lg  */
+.englishButton {
+  width: 55px;
+  height: 55px;
+  margin: 0px;
+  padding: 0px;
+  background-color: white !important;
+  color: black !important;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 80%;
+}
+
+.japaneseButton {
+  width: 55px;
+  height: 55px;
+  margin: 0px;
+  padding: 0px;
+  background-color: black !important;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 80%;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.pageFill {
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: stretch;
+  align-content: stretch; */
+  background-color: none;
+  width: 100%;
+}
+
+.mainCenterPortion {
+  display: flex;
+  flex: initial;
+  align-items: stretch;
+  height: 100%;
+  background-color: none;
+  margin-bottom: 55px;
+}
+
+.mainCenterImages {
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: 55px;
+  margin-right: 0px;
+  background-image: url(images/logo.png);
+  /* background-size: contain; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 550px;
+  ;
+  position: relative;
+}
+
+
+.header_logo {
+  width: 100px;
+  height: 55px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(images/header_logo.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  bottom: 0;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* left: 350px; */
+}
+
+/* FIRT PAGE */
+/* SECOND PAGE */
+.mainCenterProducts {
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 55px;
+  margin-right: 0px;
+  /* background-size: contain; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 550px;
+  position: relative;
+  background-color: none;
+}
+
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.homePageContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  left: 20px;
+  right: 20px;
+  background-color: #DBD9DB;
+  color: #747572;
+}
